@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/enterName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Product Name"
+        android:textSize="12dp"
+        android:inputType="text"
+        android:maxLines="1"
+        android:layout_marginEnd="8dp"
+        android:padding="12dp"
+        android:layout_marginRight="8dp"
+        tools:ignore="Autofill" />
+    <EditText
+        android:id="@+id/enterQTY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Number"
+        android:layout_marginTop="10dp"
+        android:textSize="12sp"
+        android:inputType="phone"
+        android:maxLines="1"
+        android:layout_marginEnd="8dp"
+        android:padding="12dp"
+        android:layout_marginRight="8dp"
+        tools:ignore="Autofill" />
+    <EditText
+        android:id="@+id/enterPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Price"
+        android:layout_marginTop="10dp"
+        android:textSize="12sp"
+        android:maxLines="1"
+        android:layout_marginEnd="8dp"
+        android:padding="12dp"
+        android:layout_marginRight="8dp"
+        tools:ignore="Autofill" />
+</LinearLayout>
